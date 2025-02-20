@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=https://bot-redirect.jjpothiya.workers.dev/">
+  <title>กำลังเปลี่ยนเส้นทาง...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { display: flex; justify-content: center; align-items: center; height: 100vh; background: linear-gradient(135deg, #1e3c72, #2a5298); font-family: 'Arial', sans-serif; color: #fff; }
+    .container { text-align: center; background: rgba(255, 255, 255, 0.1); padding: 30px 40px; border-radius: 15px; backdrop-filter: blur(10px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+    .spinner { width: 60px; height: 60px; border: 6px solid rgba(255, 255, 255, 0.3); border-top-color: #fff; border-radius: 50%; animation: spin 1s infinite linear; margin: 20px auto; }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    h1 { font-size: 24px; margin-bottom: 10px; }
+    p { font-size: 16px; margin-top: 10px; opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔄 กำลังเปลี่ยนเส้นทาง...</h1>
+    <div class="spinner"></div>
+    <p>หากคุณไม่ถูกเปลี่ยนเส้นทางโดยอัตโนมัติ <a href="https://bot-redirect.jjpothiya.workers.dev/" style="color:#00d4ff;">คลิกที่นี่</a></p>
+  </div>
+</body>
+</html>
